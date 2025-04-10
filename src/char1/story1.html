@@ -44,64 +44,103 @@
 
     <main>
         <div id="town-overview">
-            <h2>Town Overview: Bayridge</h2>
-            <p>
-                Once a mid-sized shipping town, now known as a testing center for new artificial intelligence products.
-                The town's economy revolves around maintaining automated supply lines, managing data centers,
-                and supporting tech contracted by federal and corporate agencies.
-            </p>
+            <div id="town">
+                <h2>Town Overview: Bayridge</h2>
+                <p>
+                    Once a mid-sized shipping town, now known as a testing center for new artificial intelligence products.
+                    The town's economy revolves around maintaining automated supply lines, managing data centers,
+                    and supporting tech contracted by federal and corporate agencies.
+                </p>
+            </div>
 
             <div id="population">
-                <h3>Population</h3>
-                <p>
+                <h2>Population
+                    <button onclick="toggleSection(document.getElementById('population-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="population-content">
+                    <p>
                     Bayridge’s population sits just under 100,000. It skews older, with many residents choosing to stay despite better opportunities
                     in metropolitan cores. The younger crowd tend to work in tech-adjacent maintenance
                     roles, or provide support services for the few industries that haven’t gone completely virtual.
-                </p>
+                    </p>
+                </div>
             </div>
 
             <div id="characteristics">
-                <h3>Characteristics</h3>
-                <p>
+                <h2>Characteristics
+                    <button onclick="toggleSection(document.getElementById('char-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="char-content">
+                    <p>
                     Bayridge is modest, functional, and just a bit worn at the edges. Public transit is AI-run
                     and sparsely used. Most buildings are retrofitted with climate-stabilizing panels,
                     and even the old brick libraries now host charging stations and telepresence booths.
-                </p>
+                    </p>
+                </div>
             </div>
 
             <div id="economics-resources">
-                <h3>Economics and Resources</h3>
-                <p>
+                <h2>Economics and Resources
+                    <button onclick="toggleSection(document.getElementById('econ-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="econ-content">
+                    <p>
                     The main resources comes from logistics maintenance contracts, data storage facilities, and
                     AI training centers. Bob works for a contracted maintenance company that ensures autonomous
                     delivery drones remain compliant with federal safety regulations.
-                </p>
+                    </p>
+                </div>
             </div>
 
             <div id="landscape">
-                <h3>Landscape</h3>
-                <p>
+                <h2>Landscape
+                    <button onclick="toggleSection(document.getElementById('landscape-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="landscape-content">
+                    <p>
                     The town is situated along a coastal area once dominated by large-scale wind farms,
                     many of which are now outdated and barely operational. The few remaining green spaces are genetically
                     engineered to endure both fluctuating temperatures and extreme weather,
                     ensuring that the town can survive even in a shifting climate.
-                </p>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <div id="story">
-            <h2>Key Events in the Story</h2>
-            <div class="event">
-                <h3>Event 1: Drone Malfunction</h3>
-                <p>
-                    A delivery drone malfunctions mid-route and crashes near the town’s residential sector.
-                    Bob’s called in to cover it up before local news picks it up.
-                </p>
-                <h3>Event 2: Layoffs</h3>
-                <p>
-                    Bob’s department is restructured after a new AI system reclassifies several departments as redundant,
-                    causing his workload to double.
-                </p>
+            <div id="story">
+                <h2>Key Events in the Story</h2>
+                <div class="event">
+                    <h3>Event 1: Drone Malfunction
+                        <button onclick="toggleSection(document.getElementById('event1-content'))">
+                            Toggle
+                        </button>
+                    </h3>
+                    <div id="event1-content">
+                        <p>
+                        A delivery drone malfunctions mid-route and crashes near the town’s residential sector.
+                        Bob’s called in to cover it up before local news picks it up.
+                        </p>
+                    </div>
+
+                    <h3>Event 2: Layoffs
+                        <button onclick="toggleSection(document.getElementById('event2-content'))">
+                            Toggle
+                        </button>
+                    </h3>
+                    <div id="event2-content">
+                        <p>
+                        Bob’s department is restructured after a new AI system reclassifies several departments as redundant,
+                        causing his workload to double.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>

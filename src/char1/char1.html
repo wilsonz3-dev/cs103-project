@@ -44,57 +44,81 @@
 
     <main>
         <div id="main-container">
-            <div id="introduction">
-                <h2>Introduction</h2>
-                <p>
-                    Bob works maintenance for municipal sensor grids in one of the first fully automated smart cities.
-                    His job consists of ensuring traffic flow, climate control systems, and public safety drones don’t break down.
-                    Most days, he runs diagnostics, patch firmware, and file reports that nobody reads.
-                </p>
-            </div>
-
-            <div id="backstory">
-                <h2>Backstory</h2>
-                <p>
-                    Bob grew up during a period of rapid automation, when artificial intelligence systems quietly replaced large
-                    segments of the workforce across sectors like transportation, logistics, and customer service.
-                    His parents were employed in regional supply chain operations and were among the last to
-                    be displaced by autonomous delivery networks.
-                </p>
-            </div>
-
-            <div id="traits">
-                <h2>Personality Traits</h2>
-                <ul class="list">
-                    <li>Bob has seen how quickly things can change from companies restructure to policies shift.
-                        As a result, he's a bit guarded, and don’t take stability for granted.</li>
-                    <li>Generally practical and level-headed, with a tendency toward dry humor.</li>
-                    <li>Values routines, quiet places, and people who are straightforward.</li>
-                </ul>
-            </div>
-
-            <div id="relationships">
-                <h2>Relationships</h2>
-                <ul class="list">
-                    <li>
-                        Close with an aging aunt, one of the last people still offline by choice.
-                        Most relationships are polite but distant — hard to connect when everything’s
-                        mediated through screens.
-                    </li>
-                    <li>
-                        Keeps in touch with a younger cousin who works in digital policy advocacy,
-                        though they often disagree on how much good the system can actually do.
-                    </li>
-                    <li>
-                        Most other interactions are casual—acquaintances from work, neighbors he nods to but don’t really know.
-                    </li>
-                </ul>
-            </div>
-
             <div id="visuals">
                 <h2>Visuals</h2>
                 <div class="character-image">
                     <img src="assets_1/bob-cs103.webp" alt="Bob">
+                </div>
+            </div>
+
+            <div id="introduction">
+                <h2>Introduction
+                    <button onclick="toggleSection(document.getElementById('introduction-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="introduction-content">
+                    <p>
+                        Bob works maintenance for municipal sensor grids in one of the first fully automated smart cities.
+                        His job consists of ensuring traffic flow, climate control systems, and public safety drones don’t break down.
+                        Most days, he runs diagnostics, patch firmware, and file reports that nobody reads.
+                    </p>
+                </div>
+            </div>
+
+            <div id="backstory">
+                <h2>Backstory
+                    <button onclick="toggleSection(document.getElementById('backstory-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="backstory-content">
+                    <p>
+                    Bob grew up during a period of rapid automation, when artificial intelligence systems quietly replaced large
+                    segments of the workforce across sectors like transportation, logistics, and customer service.
+                    His parents were employed in regional supply chain operations and were among the last to
+                    be displaced by autonomous delivery networks.
+                    </p>
+                </div>
+            </div>
+
+            <div id="traits">
+                <h2>Personality Traits
+                    <button onclick="toggleSection(document.getElementById('traits-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="traits-content">
+                    <ul class="list">
+                        <li>Bob has seen how quickly things can change from companies restructure to policies shift.
+                            As a result, he's a bit guarded, and don’t take stability for granted.</li>
+                        <li>Generally practical and level-headed, with a tendency toward dry humor.</li>
+                        <li>Values routines, quiet places, and people who are straightforward.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="relationships">
+                <h2>Relationships
+                    <button onclick="toggleSection(document.getElementById('relationships-content'))">
+                        Toggle
+                    </button>
+                </h2>
+                <div id="relationships-content">
+                    <ul class="list">
+                        <li>
+                            Close with an aging aunt, one of the last people still offline by choice.
+                            Most relationships are polite but distant — hard to connect when everything’s
+                            mediated through screens.
+                        </li>
+                        <li>
+                            Keeps in touch with a younger cousin who works in digital policy advocacy,
+                            though they often disagree on how much good the system can actually do.
+                        </li>
+                        <li>
+                            Most other interactions are casual—acquaintances from work, neighbors he nods to but don’t really know.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

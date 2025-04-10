@@ -4,19 +4,17 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f7f7;
-    color: #333333;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
     margin: 0;
 }
 
 nav {
-    background-color: #4a6fa5;
-    padding: 30px 0;
+    background-color: #161b22;
+    padding: 25px 0;
     position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 10;
+    border-bottom: 1px solid #30363d;
 }
 
 nav ul {
@@ -33,16 +31,17 @@ nav ul li {
 }
 
 nav ul li a {
+    color: #c9d1d9;
+    transition: all 0.3s ease;
     text-decoration: none;
-    color: white;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
 }
 
 nav ul li a:hover {
-    background-color: #e6e9f0;
-    color: #4a6fa5;
+    background-color: darkslateblue;
+    color: #ffffff;
 }
 
 .dropdown {
@@ -53,18 +52,18 @@ nav ul li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #5b84c4;
+    background-color: #21262d;
+    border: 1px solid #30363d;
     width: 160px;
     padding: 12px 16px;
-    z-index: 1;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .dropdown-content a {
+    color: #c9d1d9;
     display: block;
-    padding: 8px 0;
+    padding: 8px 3px;
     margin: 3px;
-    color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -72,26 +71,34 @@ nav ul li a:hover {
 }
 
 header {
-    background-color: #e6e9f0;
+    background-color: #0d1117;
+    border-bottom: 1px solid #30363d;
     padding: 40px 20px;
     text-align: center;
     margin-bottom: 30px;
-    border-bottom: 2px solid #4a6fa5;
 }
 
 h1 {
-    color: #4a6fa5;
+    color: #58a6ff;
     font-size: 32px;
 }
 
 #main-container {
-    background-color: #f0f2f5;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    max-width: 60%;
+}
+
+#town-overview {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    max-width: 60%;
 }
 
 main {
-    max-width: 1200px;
-    margin: auto;
-    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 main div {
@@ -99,28 +106,41 @@ main div {
     padding: 25px;
     margin-bottom: 30px;
     border-radius: 8px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid white;
 }
 
 h2 {
-    color: #4a6fa5;
+    color: #58a6ff;
+    border-bottom: 1px solid #30363d;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #e0e0e0;
     text-align: center;
 }
 
+h3 {
+    color: #58a6ff;
+    margin-bottom: 2px;
+}
+
+#event1-content p, #event2-content p {
+    border: 1px solid #161b22;
+    padding: 20px;
+}
+
 p {
-    margin-bottom: 15px;
+    color: black;
+    margin-bottom: 8px;
 }
 
 .list {
     padding-left: 20px;
     margin-bottom: 15px;
+    color: #8b949e;
 }
 
 .list li {
     margin-bottom: 10px;
+    color: black;
 }
 
 .character-image {
@@ -134,11 +154,26 @@ img {
 }
 
 footer {
-    background-color: #e6e9f0;
-    color: black;
+    background-color: #161b22;
+    color: #8b949e;
+    border-top: 1px solid #30363d;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color: #4a6fa5;
+    border: 1px solid #5b84c4;
+    padding: 2px 8px;
+    margin-left: 10px;
+    font-size: calc(7px + 0.5vw);
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #58a6ff;
+    font-size: calc(10px + 0.5vw);
 }
 
 @media screen and (max-width: 768px) {
@@ -156,7 +191,7 @@ footer {
     }
 
     .dropdown-content a {
-        color: #4a6fa5;
+        color: darkslateblue;
     }
 
     header {
