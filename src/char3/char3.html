@@ -1,3 +1,4 @@
+<!--Page created by Maria Gonzalez-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,45 +8,71 @@
     <link rel="stylesheet" type="text/css" href="char3.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../home/home.html">Home</a></li>
-            <li class="dropdown">
-                <a href="../char1/char1.html">Character 1</a>
-                <div class="dropdown-content">
-                    <a href="../char1/story1.html">Story 1</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="../char2/char2.html">Character 2</a>
-                <div class="dropdown-content">
-                    <a href="../char2/story2.html">Story 2</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="char3.html">Character 3</a>
-                <div class="dropdown-content">
-                    <a href="story3.html">Story 3</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <a href="../char4/char4.html">Character 4</a>
-                <div class="dropdown-content">
-                    <a href="../char4/story4.html">Story 4</a>
-                </div>
-            </li>
-            <li><a href="../credits.html">Credits</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h1>Kassandra</h1>
-        <h2>Personality Traits</h2>
-        <ul>
-            <li>A seer: Can see the future</li>
-            <li>Is a bubbly, go lucky person, however </li>
-        </ul>
-        <h2>Relationships</h2>
-    </main>
-    <script src="char3.js"></script>
+<nav>
+    <ul>
+        <li><a href="../home/home.html">Home</a></li>
+        <li class="dropdown">
+            <a href="../char1/char1.html">Character 1</a>
+            <div class="dropdown-content">
+                <a href="../char1/story1.html">Story 1</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="../char2/char2.html">Character 2</a>
+            <div class="dropdown-content">
+                <a href="../char2/story2.html">Story 2</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="char3.html">Character 3</a>
+            <div class="dropdown-content">
+                <a href="story3.html">Story 3</a>
+            </div>
+        </li>
+        <li class="dropdown">
+            <a href="../char4/char4.html">Character 4</a>
+            <div class="dropdown-content">
+                <a href="../char4/story4.html">Story 4</a>
+            </div>
+        </li>
+        <li><a href="../credits.html">Credits</a></li>
+    </ul>
+</nav>
+<main>
+    <h1>Kassandra</h1>
+    <div id="main-content">
+        <div id="pic-and-fortune">
+            <a href=""><img src="pics/kassandra.jpg" alt="Photo of Kassandra"></a>
+            <h2>Would you like Kassandra to tell your future?</h2>
+            <p>Choose one of the numbers below for a fortune.</p>
+            <div id="fortunes">
+                <button onclick="fortune()">1</button>
+                <button onclick="fortune()">2</button>
+                <button onclick="fortune()">3</button>
+                <button onclick="fortune()">4</button>
+                <button onclick="fortune()">5</button>
+            </div>
+            <h3 id="output-fortune"></h3>
+        </div>
+        <div id="story-stuff">
+            <div id="backstory">
+                <h2>Backstory</h2>
+                <p>Something Something</p>
+            </div>
+            <div id="personality">
+                <h2>Personality Traits</h2>
+                <ul>
+                    <li>A seer: Can see the future</li>
+                    <li>Is a bubbly, go lucky person, however</li>
+                </ul>
+            </div>
+            <div id="relationships">
+                <h2>Relationships</h2>
+                <p>Something Something</p>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="char3.js"></script>
 </body>
 </html>
