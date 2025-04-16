@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #0d1117;
     color: #c9d1d9;
     margin: 0;
@@ -107,7 +107,7 @@ h1 {
 
 .visuals {
     text-align: center;
-    min-width: 400px;
+    width: 100%;
 }
 
 main {
@@ -221,10 +221,6 @@ button:hover {
     .overview-columns {
         display: flex;
         flex-direction: column;
-    }
-
-    .visuals {
-        min-width: 100px;
     }
 }
 
