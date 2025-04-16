@@ -79,7 +79,7 @@ header {
 }
 
 h1 {
-    color: #58a6ff;
+    color: #3b6ea5;
     font-size: 32px;
 }
 
@@ -93,6 +93,10 @@ h1 {
     background-color: #161b22;
     border: 1px solid #30363d;
     max-width: 60%;
+}
+
+#visuals {
+    text-align: center;
 }
 
 main {
@@ -110,7 +114,7 @@ main div {
 }
 
 h2 {
-    color: #58a6ff;
+    color: #3b6ea5;
     border-bottom: 1px solid #30363d;
     margin-bottom: 15px;
     padding-bottom: 10px;
@@ -118,7 +122,7 @@ h2 {
 }
 
 h3 {
-    color: #58a6ff;
+    color: #3b6ea5;
     margin-bottom: 2px;
 }
 
@@ -163,8 +167,9 @@ footer {
 }
 
 button {
-    background-color: #4a6fa5;
-    border: 1px solid #5b84c4;
+    background-color: black;
+    border: 1px solid black;
+    color: darkorange;
     padding: 2px 8px;
     margin-left: 10px;
     font-size: calc(7px + 0.5vw);
@@ -172,7 +177,7 @@ button {
 }
 
 button:hover {
-    background-color: #58a6ff;
+    background-color: silver;
     font-size: calc(10px + 0.5vw);
 }
 
