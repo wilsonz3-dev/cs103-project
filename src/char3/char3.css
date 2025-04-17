@@ -118,6 +118,16 @@ button{
     padding-top: 10px;
 }
 
+#output-fortune{
+    border: 2px solid white;
+    background-color: #6A9C89;
+    padding: 5px;
+    margin:10px;
+    color:white;
+    text-align: center;
+    visibility: hidden;
+}
+
 #story-stuff{
     background-color: #007074;
     width: 50%;
