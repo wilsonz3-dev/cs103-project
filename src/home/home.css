@@ -63,3 +63,13 @@ nav ul li a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: row;
+}
