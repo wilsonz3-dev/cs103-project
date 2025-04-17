@@ -33,7 +33,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: mediumslateblue;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
@@ -69,7 +69,29 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
+/*Nora*/
 .sub-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px 20px;
 }
+
+/* Nora start */
+#sub-container h1 {
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+#synopsis {
+    padding: 10px;
+    margin: 10px 20px;
+    width: 50%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+/* Nora end */
