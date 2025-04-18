@@ -1,5 +1,3 @@
-/* For transparency purposes, utilized AI for better color scheme */
-
 * {
     margin: auto;
     box-sizing: border-box;
@@ -107,12 +105,14 @@ h1 {
     background-color: #b87333;
     border: 1px solid #30363d;
     max-width: 60%;
+    box-shadow: 0 0 15px #b87333;
 }
 
 #town-overview {
     background-color: #b87333;
     border: 1px solid #30363d;
     max-width: 60%;
+    box-shadow: 0 0 15px #b87333;
 }
 
 .visuals {
@@ -205,6 +205,17 @@ button:hover {
     background-color: #e0a243;
     color: #fff;
     font-size: calc(10px + 0.5vw);
+}
+
+.terminal-box {
+    background-color: #f5e2cf;
+    color: #e0a243;
+    padding: 15px;
+    font-family: "Courier New", monospace;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px #e0a243;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px) {
