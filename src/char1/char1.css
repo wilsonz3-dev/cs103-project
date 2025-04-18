@@ -12,9 +12,13 @@ body {
 
 nav {
     background-color: #ede6db;
-    padding: 30px 0 30px 10px;
+    padding: 30px 0;
     position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-bottom: 1px solid #b87333;
+    z-index: 1000;
 }
 
 nav ul {
@@ -56,6 +60,8 @@ nav ul li a:hover {
     border: 1px solid #b87333;
     width: 160px;
     padding: 12px 16px;
+    z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     border-radius: 2px;
 }
 
@@ -64,6 +70,7 @@ nav ul li a:hover {
     display: block;
     padding: 8px 3px;
     margin: 3px;
+    text-decoration: none;
 }
 
 .dropdown-content a:hover {
