@@ -137,3 +137,22 @@ header h1 {
 footer p {
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        text-align: center;
+        position: static;
+        background-color: #e6e9f0;
+        margin-top: 8px;
+    }
+
+    .dropdown-content a {
+        color: darkslateblue;
+    }
+}
