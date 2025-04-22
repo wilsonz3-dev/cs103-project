@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -135,4 +139,23 @@ nav ul li a:hover {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        text-align: center;
+        position: static;
+        background-color: #e6e9f0;
+        margin-top: 8px;
+    }
+
+    .dropdown-content a {
+        color: darkslateblue;
+    }
 }
