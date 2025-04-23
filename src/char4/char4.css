@@ -68,6 +68,11 @@ nav ul li a:hover {
     display: block;
 }
 
+#page-wrapper {
+    height: 100%;
+    width: 90%;
+}
+
 main h1{
     text-align: center;
     border: 3px solid #d0e4b8;
@@ -87,6 +92,7 @@ main h1{
 }
 
 #left-column {
+    text-align: center;
     height: 70%;
     width: 70%;
     margin: 2% 5% 2% 15%;
@@ -95,6 +101,7 @@ main h1{
 }
 
 #right-column {
+    text-align: center;
     height: 70%;
     width: 70%;
     margin: 2% 5% 2% 15%;
