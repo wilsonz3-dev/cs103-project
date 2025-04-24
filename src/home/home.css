@@ -102,7 +102,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-/*Nora*/
+/* Nora start */
 .sub-container {
     display: flex;
     flex-direction: row;
@@ -111,14 +111,8 @@ nav ul li a:hover {
     margin: 10px 20px;
 }
 
-/* Nora start */
-#sub-container h1 {
-    padding: 10px;
-    margin: 10px 20px;
-}
-
-#map-photo img {
-    visibility: hidden;
+.sub-container h1 {
+    font-family: Apple Chancery, cursive;
 }
 
 #synopsis {
@@ -126,6 +120,7 @@ nav ul li a:hover {
     margin: 10px 20px;
     width: 50%;
     text-align: center;
+    color: ivory;
 }
 
 footer {
@@ -133,6 +128,10 @@ footer {
 }
 
 /* Nora end */
+
+#map-photo img {
+    visibility: hidden;
+}
 
 @media screen and (max-width: 768px) {
     nav ul {
