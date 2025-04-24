@@ -164,6 +164,11 @@ nav ul li a:hover {
     font-family: Luminari, fantasy;
 }
 
+a {
+    text-decoration: none;
+    color: #8b949e;
+}
+
 footer {
     text-align: center;
     background-color: #ede6db;

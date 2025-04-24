@@ -12,8 +12,22 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: mediumpurple;
+    color: black;
+    border-top: 1px solid #3b6ea5;
+    padding: 20px;
+    margin-top: 30px;
+}
+
 nav {
-    background-color: #211C84;
+    background-color: mediumpurple;
     padding: 30px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;

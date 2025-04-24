@@ -22,6 +22,11 @@ main h1 {
     font-family: Copperplate, fantasy;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 main p {
     text-align: center;
     color: white;

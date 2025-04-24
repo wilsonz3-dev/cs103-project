@@ -34,6 +34,11 @@ nav ul {
     gap: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav ul li {
     display: inline;
 }

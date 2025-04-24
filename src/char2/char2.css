@@ -48,6 +48,11 @@ nav ul li a {
     transition: all 0.3s ease;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 nav ul li a:hover {
     background-color: #161b22;
     color: #6A9C89;

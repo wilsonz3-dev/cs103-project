@@ -123,6 +123,11 @@ main h1{
     border: 3px solid #bb8588;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 footer {
     background-color: #bb8588;
     padding: 30px 30px;
