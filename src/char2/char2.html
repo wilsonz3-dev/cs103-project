@@ -43,47 +43,61 @@
     <main>
         <div id="big">
 
-        <div id="introduction">
-            <h2>Introduction</h2>
-            <p> Mae lives in a seaside town. She is a part of a family of fishermen and women, and specifically works on a boat as a diver. /b
-             This work requires diving for rare crystals that grow/form in the specific waters that she lives nearby. These are a hot commodity
-            in this world, as owning them and styling them in jewelry and fashion is a sign of status. </p>
-        </div>
-            <div id="looks">
-            <div id="about">
-        <div id="backstory">
-            <h2>Backstory</h2>
-            <p> Mae has lived in this town her entire life. She began fishing and diving with her sisters and parents at a young age.
-            She was brought up doing this, and continues this work as it is a family business. Her sisters do the same, they each work from their
-            own boats. </p>
-        </div>
-
-        <div id="traits">
-            <h2>Personality Traits</h2>
-            <ul class="traits-list">
-                <li>Diligent</li>
-                <li>Stubborn</li>
-                <li>Thorough</li>
-                <li>Trustworthy</li>
-                <li>Loyal</li>
-                <li>Hard-working</li>
-            </ul>
-        </div>
-
-        <div id="relationships">
-            <h2>Relationships</h2>
-            <p> Mae is closest with her three sisters, she is the third born. She spends most of her time with them and her
-            nieces and nephews. Outside of her family, she has three close friends. They are (names). She is also very close with her mother, as she taught her
-            how to dive and find the crystals.</p>
-        </div>
-        </div>
-        <div id="visuals">
-            <h2>Visuals</h2>
-            <div class="character-image">
-                <img src="" alt="">
+            <div id="introduction">
+                <h2>Introduction</h2>
+                <p> Mae lives in a seaside town. She is a part of a family of fishermen and women, and specifically works on a boat as a diver.
+                 This work requires diving for rare crystals that grow in the specific waters that she lives nearby. These are a hot commodity
+                in this world, as owning them and styling them in jewelry and fashion is a sign of status. </p>
             </div>
-        </div>
-        </div>
+            <div id="looks">
+                <div id="about">
+                    <div id="backstory">
+                        <h2>Backstory</h2>
+                        <p> Mae has lived in this town her entire life. She began fishing and diving with her sisters and parents at a young age.
+                        She was brought up doing this, and continues this work as it is a family business. Her sisters do the same, they each work from their
+                        own boats. </p>
+                    </div>
+
+                    <div id="traits">
+                        <h2>Personality Traits</h2>
+                        <ul class="traits-list">
+                            <li>Diligent</li>
+                            <li>Stubborn</li>
+                            <li>Thorough</li>
+                            <li>Trustworthy</li>
+                            <li>Loyal</li>
+                            <li>Hard-working</li>
+                        </ul>
+                    </div>
+
+                    <div id="relationships">
+                        <h2>Relationships</h2>
+                        <p> Mae is closest with her three sisters, she is the second born. She spends most of her time with them and her
+                        nieces and nephews. She is also very close with her mother, as she taught her
+                        how to dive and find the crystals.</p>
+                    </div>
+                </div>
+                <div id="visuals">
+                    <h2>Visuals</h2>
+
+                    <div id="mae-image">
+                        <img src="pics/mae3.jpeg" alt="Mae pic">
+                    </div>
+                    <p> Enter a depth for Mae to dive and see which crystal she find for you! </p>
+
+                    <p><label for="depth">Enter a number in feet: </label>
+                        <input id="depth" placeholder="enter depth">
+                        <button onclick="crystal()" id="find-crystal">Find Crystal</button>
+                    </p>
+                    <p id="output"></p>
+
+                    <div id="rocks">
+                        <div id="crystal-display">
+                            <img id="crystal-img" src="" alt="crystal" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

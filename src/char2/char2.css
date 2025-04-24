@@ -14,7 +14,8 @@ nav {
     background-color: #6A9C89;
     padding: 30px 0;
     position: sticky;
-    border-bottom: 1px solid #007074;
+    border-bottom: 5px solid #132a13;
+
 }
 
 nav ul {
@@ -51,7 +52,10 @@ header h1 {
     padding: 10px;
     background-color: #007074;
     color: #161b22;
+    font-family: Copperplate, fantasy;
 }
+
+
 
 #big {
     display: flex;
@@ -74,9 +78,6 @@ header h1 {
     justify-content: space-evenly;
 }
 
-#visuals {
-    width: 50%;
-}
 
 #introduction {
     width: 50%;
@@ -85,6 +86,8 @@ header h1 {
     color: white;
     padding: 10px;
     text-align: center;
+    font-family: Copperplate, fantasy;
+
 }
 
 #backstory {
@@ -94,6 +97,8 @@ header h1 {
     color: white;
     padding: 10px;
     margin: 10px 20px;
+    font-family: Copperplate, fantasy;
+
 }
 
 #traits {
@@ -103,7 +108,7 @@ header h1 {
     color: white;
     padding: 10px;
     margin: 10px 20px;
-
+    font-family: Copperplate, fantasy;
 }
 
 #relationships {
@@ -113,6 +118,8 @@ header h1 {
     color: white;
     padding: 10px;
     margin: 10px 20px;
+    font-family: Copperplate, fantasy;
+
 }
 
 .dropdown {
@@ -136,4 +143,35 @@ header h1 {
 
 footer p {
     text-align: center;
+    color: white;
+    background-color: #132a13;
+    padding: 10px;
+}
+
+#crystal-display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#crystal-img {
+    width: 300px;
+    height: auto;
+    visibility: hidden;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#visuals {
+    text-align: center;
+    color: white;
+    background-color: #007074;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    font-family: Copperplate, fantasy;
+}
+
+#mae-image {
+    width: 300px;
+    height: auto;
 }
