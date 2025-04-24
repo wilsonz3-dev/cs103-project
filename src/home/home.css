@@ -160,87 +160,87 @@ footer {
     margin: 2% 15% 2% 15%;
 }
 
-.panels {
-    height: 95vh;
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-}
+/*.panels {*/
+/*    height: 95vh;*/
+/*    width: 100vw;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*}*/
 
-.panel {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: flex 0.7s cubic-bezier(0.38, -0.06, 0.7, -0.11);
-}
+/*.panel {*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    transition: flex 0.7s cubic-bezier(0.38, -0.06, 0.7, -0.11);*/
+/*}*/
 
-.panel > * {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    transition: transform .5s cubic-bezier(0.38, -0.06, 0.7, -0.11);
-}
+/*.panel > * {*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    transition: transform .5s cubic-bezier(0.38, -0.06, 0.7, -0.11);*/
+/*}*/
 
-.panel > h2 {
-    color: white;
-    text-shadow: 1px 1px 1px #000, 2px 2px 1px #000;
-    text-align: center;
-    font-size: 2vw;
-}
+/*.panel > h2 {*/
+/*    color: white;*/
+/*    text-shadow: 1px 1px 1px #000, 2px 2px 1px #000;*/
+/*    text-align: center;*/
+/*    font-size: 2vw;*/
+/*}*/
 
-.panel > img {
-    max-width: 90%;
-    max-height: 70%;
-    padding-bottom: 20px;
-}
+/*.panel > img {*/
+/*    max-width: 90%;*/
+/*    max-height: 70%;*/
+/*    padding-bottom: 20px;*/
+/*}*/
 
-.panel.bob {
-    background-image: url("../char1/assets_1/bayridge-town.jpg");
-    background-size: cover;
-    color: white;
-    background-position: center;
-}
+/*.panel.bob {*/
+/*    background-image: url("../char1/assets_1/bayridge-town.jpg");*/
+/*    background-size: cover;*/
+/*    color: white;*/
+/*    background-position: center;*/
+/*}*/
 
-.panel.mae {
-    background-image: url("src/calicobg.jpg");
-    background-size: cover;
-}
+/*.panel.mae {*/
+/*    background-image: url("src/calicobg.jpg");*/
+/*    background-size: cover;*/
+/*}*/
 
-.panel.kassandra {
-    background-image: url("../char3/pics/willow.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+/*.panel.kassandra {*/
+/*    background-image: url("../char3/pics/willow.jpg");*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
 
-.panel.floradessa {
-    background-image: url("../char4/images/field.jpeg");
-    background-size: cover;
-}
+/*.panel.floradessa {*/
+/*    background-image: url("../char4/images/field.jpeg");*/
+/*    background-size: cover;*/
+/*}*/
 
-.panel.open {
-    flex: 5;
-}
+/*.panel.open {*/
+/*    flex: 5;*/
+/*}*/
 
-.panel.active > h2 {
-    transform: scale(2);
-}
+/*.panel.active > h2 {*/
+/*    transform: scale(2);*/
+/*}*/
 
-.panel.active > img {
-    max-height: 70%;
-    width: auto;
-}
+/*.panel.active > img {*/
+/*    max-height: 70%;*/
+/*    width: auto;*/
+/*}*/
 
-.panel > *:last-child {
-    transform: translateY(150vh);
-}
+/*.panel > *:last-child {*/
+/*    transform: translateY(150vh);*/
+/*}*/
 
-.panel.active > *:last-child {
-    transform: translateY(0);
-}
+/*.panel.active > *:last-child {*/
+/*    transform: translateY(0);*/
+/*}*/
 
-.panel.kitten.open {
-    background-image: none;
-}
+/*.panel.kitten.open {*/
+/*    background-image: none;*/
+/*}*/

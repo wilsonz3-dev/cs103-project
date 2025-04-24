@@ -100,11 +100,31 @@ main h1{
     color: #efebce;
 }
 
-#bakery-photo img {
-    height: 70%;
-    width: 70%;
-    margin: 2% 0 2% 15%;
-    border: 3px solid #bb8588;
+#field-photo {
+    background-image: url("../char4/images/field.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#field-photo:hover {
+    visibility: hidden;
+    /*opacity:1;*/
+}
+
+#bakery-photo {
+    background-image: url("../char4/images/bakery.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 70vw;
+    margin-top:10px;
+    margin-bottom: 10px;
+    position: relative;
 }
 
 footer {
