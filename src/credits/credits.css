@@ -120,6 +120,14 @@ main{
     text-align: center;
     padding: 5px;
 }
+
+footer {
+    text-align: center;
+    background-color: #211C84;
+    color: white;
+    border-top: 1px solid black;
+    padding: 20px;
+}
 /*End of Maria's section*/
 
 #Wilson, #Nora, #Maria, #Linnea{
