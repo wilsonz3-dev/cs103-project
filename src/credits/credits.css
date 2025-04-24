@@ -74,6 +74,11 @@ main{
     height:100%;
     color:white;
 }
+
+#credit-content ul li {
+    margin-bottom: 8px;
+}
+
 /*Start of Maria's Section*/
 #main-content{
     position:relative;
