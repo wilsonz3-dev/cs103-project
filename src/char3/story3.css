@@ -1,3 +1,4 @@
+/*Page by Maria Gonzalez*/
 * {
     margin: auto;
     box-sizing: border-box;
@@ -69,15 +70,47 @@ main h1{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-bottom:2%;
 }
 
 #content{
     position: absolute;
-    background-color: white;
-    height:75%;
+    height:80%;
     width: 80%;
     left: 10%;
     top: 10%;
+
+}
+
+#population{
+    padding: 10px;
+    width:95%;
+    margin-bottom:3%;
+    background-color: white;
+    opacity: 0.5;
+}
+#tree{
+    border: 2px solid white;
+    padding: 10px;
+    width:95%;
+    margin-bottom:3%;
+    background-color: white;
+    opacity: 0.5;
+}
+#surprise{
+    border: 2px solid white;
+    padding: 10px;
+    width:95%;
+    margin-bottom: 5%;
+    background-color: white;
+    opacity: 0.5;
+}
+
+footer{
+    background-color: #4D55CC;
+    color: white;
+    text-align: center;
+    padding:10px;
 }
 
 nav ul li a:hover {
