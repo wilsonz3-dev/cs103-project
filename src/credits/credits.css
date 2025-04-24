@@ -72,18 +72,17 @@ main{
     position:relative;
     width:100%;
     height:100%;
-    /*background-image: url("char3/pics/fantasy.jpg");*/
+    color:white;
 }
 
-/*#main-content{*/
-/*    background-image: url("char3/pics/fantasy.jpg");*/
-/*    height: 100vh;*/
-/*    max-width: 100%;*/
-/*    background-size: cover;*/
-/*    background-position:center;*/
-/*    background-repeat: no-repeat;*/
+#main-content{
+    background-image: url("../char3/pics/fantasy.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-/*}*/
+}
 #main-content h1 {
     text-align: center;
     padding-bottom: 5px;

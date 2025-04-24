@@ -61,61 +61,17 @@ main h1{
     justify-content: space-around;
 }
 
-#pic-and-fortune {
-    background-color:#007074;
-    width:45%;
+#willow{
+    background-image: url("../char3/pics/willow.jpg");
+    height: 100vh;
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-#pic-and-fortune img{
-    height: 100%;
-    width: 70%;
-    margin: 2% 0 2% 15%;
-    border: 3px solid white;
-}
-
-#pic-and-fortune h2{
-    color: white;
-    margin-left:2%;
-}
-
-#pic-and-fortune p{
-    color: white;
-    margin-left:2%;
-}
-
-button{
-    width: 10%;
-    background-color: #6A9C89;
-}
-#story-stuff {
-    background-color: #007074;
-}
-#backstory{
-    border: 2px solid white;
-    padding: 10px;
-    width:95%;
-    margin-top: 5%;
-    margin-bottom:3%;
-    background-color: #6A9C89;
-}
-#personality{
-    border: 2px solid white;
-    padding: 10px;
-    width:95%;
-    margin-bottom:3%;
-    background-color: #6A9C89;
-}
-#relationships{
-    border: 2px solid white;
-    padding: 10px;
-    width:95%;
-    margin-bottom: 5%;
-    background-color: #6A9C89;
-}
-
-#story-stuff{
-    background-color: #007074;
-    width: 50%;
+#content{
+    background-color: white;
 }
 
 nav ul li a:hover {
