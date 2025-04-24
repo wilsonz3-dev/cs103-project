@@ -130,6 +130,7 @@ main h1{
 footer {
     background-color: #bb8588;
     padding: 30px 30px;
+    text-align: center;
 }
 
 @media screen and (max-width: 768px) {
