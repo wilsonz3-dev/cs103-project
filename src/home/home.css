@@ -144,9 +144,10 @@ nav ul li a:hover {
     max-width: 1000px;
     background-color: #fffef8;
     border-radius: 8px;
+    font-family: Luminari, fantasy;
+
 }
 
-/* Nora start */
 #sub-container h1 {
     padding: 10px;
     margin: 10px 20px;
@@ -157,6 +158,10 @@ nav ul li a:hover {
     margin: 10px 20px;
     width: 50%;
     text-align: center;
+}
+
+#synopsis p {
+    font-family: Luminari, fantasy;
 }
 
 footer {
