@@ -4,13 +4,22 @@ function toggleSection(section) {
     }
 }
 
-function colorAllHeadings() {
-    const headings = document.getElementsByTagName("h2");
+// Predictive System Feature
+function runAIPrediction() {
+    let output = document.getElementById("ai-output");
+    let predictions = [
+        "Routine scan complete. Proceed with caution, as always.",
+        "Lag detected. Recommend low-stimulation environments for optimal performance.",
+        "You’ve been motionless for 28 minutes.",
+        "Social capacity may be limited. Plan conversations accordingly.",
+        "Today’s forecast includes meetings with HR.",
+        "System cache is clean. Memory fragments from last Tuesday still unresolved.",
+        "Power grid sync achieved. You are now in alignment with something.",
+        "The network is silent.",
+        "Detected: Overthinking loops."
+    ];
 
-    const random_color_list = ["darkorange", "darkblue", "darkgreen", "crimson", "mediumvioletred"];
-
-    for (let i = 0; i < headings.length; i++) {
-        const randomIndex = Math.floor(Math.random() * random_color_list.length); // Generate a random integer (0-length of list)
-        headings[i].style.color = random_color_list[randomIndex]; // Set randomized color to the h2 tags
-    }
+    let index = Math.floor(Math.random() * predictions.length);
+    let speaker = "<span style='font-weight: bold; color: #e0a243;'>BOB> </span>";
+    output.innerHTML = speaker + predictions[index];
 }

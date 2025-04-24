@@ -1,20 +1,37 @@
+/* Wilson's Part */
+
 * {
     margin: auto;
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
+main {
+    background-image: url("../home/images/map.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #f8f5f2;
+    color: #2d2d2d;
+    margin: 0;
 }
 
 nav {
-    background-color: #222;
+    background-color: #ede6db;
     padding: 30px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
     width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #b87333;
     z-index: 1000;
 }
 
@@ -32,17 +49,17 @@ nav ul li {
 }
 
 nav ul li a {
+    color: #3b6ea5;
+    transition: all 0.3s ease;
     text-decoration: none;
-    color: mediumslateblue;
     font-weight: bold;
     padding: 10px 15px;
     border-radius: 5px;
-    transition: background 0.3s ease;
 }
 
 nav ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffcc00;
+    background-color: #e0a243;
+    color: #fff;
 }
 
 .dropdown {
@@ -54,10 +71,25 @@ nav ul li a:hover {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: 1px solid #b87333;
+    width: 160px;
     padding: 12px 16px;
     z-index: 1;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+}
+
+.dropdown-content a {
+    color: #3b6ea5;
+    display: block;
+    padding: 8px 3px;
+    margin: 3px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0d9bd;
+    color: #2d2d2d;
 }
 
 .dropdown:hover .dropdown-content {
@@ -67,6 +99,7 @@ nav ul li a:hover {
 #container {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 /*Nora*/
@@ -84,6 +117,10 @@ nav ul li a:hover {
     margin: 10px 20px;
 }
 
+#map-photo img {
+    visibility: hidden;
+}
+
 #synopsis {
     padding: 10px;
     margin: 10px 20px;
@@ -94,4 +131,116 @@ nav ul li a:hover {
 footer {
     text-align: center;
 }
+
 /* Nora end */
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        text-align: center;
+        position: static;
+        background-color: #e6e9f0;
+        margin-top: 8px;
+    }
+
+    .dropdown-content a {
+        color: darkslateblue;
+    }
+}
+
+/*Linnea*/
+#world-map img {
+    height: 70%;
+    width: 70%;
+    margin: 2% 15% 2% 15%;
+}
+
+/*.panels {*/
+/*    height: 95vh;*/
+/*    width: 100vw;*/
+/*    overflow: hidden;*/
+/*    display: flex;*/
+/*}*/
+
+/*.panel {*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    transition: flex 0.7s cubic-bezier(0.38, -0.06, 0.7, -0.11);*/
+/*}*/
+
+/*.panel > * {*/
+/*    flex: 1;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    transition: transform .5s cubic-bezier(0.38, -0.06, 0.7, -0.11);*/
+/*}*/
+
+/*.panel > h2 {*/
+/*    color: white;*/
+/*    text-shadow: 1px 1px 1px #000, 2px 2px 1px #000;*/
+/*    text-align: center;*/
+/*    font-size: 2vw;*/
+/*}*/
+
+/*.panel > img {*/
+/*    max-width: 90%;*/
+/*    max-height: 70%;*/
+/*    padding-bottom: 20px;*/
+/*}*/
+
+/*.panel.bob {*/
+/*    background-image: url("../char1/assets_1/bayridge-town.jpg");*/
+/*    background-size: cover;*/
+/*    color: white;*/
+/*    background-position: center;*/
+/*}*/
+
+/*.panel.mae {*/
+/*    background-image: url("src/calicobg.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.panel.kassandra {*/
+/*    background-image: url("../char3/pics/willow.jpg");*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*}*/
+
+/*.panel.floradessa {*/
+/*    background-image: url("../char4/images/field.jpeg");*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.panel.open {*/
+/*    flex: 5;*/
+/*}*/
+
+/*.panel.active > h2 {*/
+/*    transform: scale(2);*/
+/*}*/
+
+/*.panel.active > img {*/
+/*    max-height: 70%;*/
+/*    width: auto;*/
+/*}*/
+
+/*.panel > *:last-child {*/
+/*    transform: translateY(150vh);*/
+/*}*/
+
+/*.panel.active > *:last-child {*/
+/*    transform: translateY(0);*/
+/*}*/
+
+/*.panel.kitten.open {*/
+/*    background-image: none;*/
+/*}*/

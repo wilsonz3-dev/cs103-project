@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -14,6 +18,10 @@ nav {
     background-color: #6A9C89;
     padding: 30px 0;
     position: sticky;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
     border-bottom: 5px solid #132a13;
 
 }
@@ -174,4 +182,23 @@ footer p {
 #mae-image {
     width: 300px;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        text-align: center;
+        position: static;
+        background-color: #e6e9f0;
+        margin-top: 8px;
+    }
+
+    .dropdown-content a {
+        color: darkslateblue;
+    }
 }
