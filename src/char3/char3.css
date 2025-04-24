@@ -137,6 +137,13 @@ button{
     width: 50%;
 }
 
+footer{
+    background-color: #034C53;
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+
 nav ul li a:hover {
     background: rgba(255, 255, 255, 0.2);
 }

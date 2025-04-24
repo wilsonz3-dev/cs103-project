@@ -74,18 +74,36 @@ main{
     height:100%;
     color:white;
 }
-
+/*Start of Maria's Section*/
 #main-content{
+    position:relative;
     background-image: url("../char3/pics/fantasy.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
 }
+
+#credit-content{
+    position: absolute;
+    background-color: white;
+    height:80%;
+    width: 75%;
+    left: 12.5%;
+    top: 10%;
+    opacity: 0.5;
+    color: black;
+}
+
 #main-content h1 {
     text-align: center;
-    padding-bottom: 5px;
+    padding: 5px;
+}
+/*End of Maria's section*/
+
+#Wilson, #Nora, #Maria, #Linnea{
+    opacity: 1;
+    margin-left:5%;
 }
 
 @media screen and (max-width: 768px) {
