@@ -87,7 +87,7 @@ main h1{
     width:95%;
     margin-bottom:3%;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 #tree{
     border: 2px solid white;
@@ -95,7 +95,7 @@ main h1{
     width:95%;
     margin-bottom:3%;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 #surprise{
     border: 2px solid white;
@@ -103,7 +103,7 @@ main h1{
     width:95%;
     margin-bottom: 5%;
     background-color: white;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 footer {
