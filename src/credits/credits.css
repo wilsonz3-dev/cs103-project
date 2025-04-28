@@ -17,14 +17,14 @@ footer a {
     color: white;
 }
 
-footer {
-    text-align: center;
-    background-color: mediumpurple;
-    color: black;
-    border-top: 1px solid #3b6ea5;
-    padding: 20px;
-    margin-top: 30px;
-}
+/*footer {*/
+/*    text-align: center;*/
+/*    background-color: mediumpurple;*/
+/*    color: black;*/
+/*    border-top: 1px solid #3b6ea5;*/
+/*    padding: 20px;*/
+/*    margin-top: 30px;*/
+/*}*/
 
 nav {
     background-color: mediumpurple;
@@ -123,10 +123,10 @@ main{
 
 footer {
     text-align: center;
-    background-color: #211C84;
+    background-color: mediumpurple;
     color: white;
-    border-top: 1px solid black;
-    padding: 20px;
+    border-top: 1px solid white;
+    padding:20px
 }
 /*End of Maria's section*/
 
