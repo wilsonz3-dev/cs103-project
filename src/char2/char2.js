@@ -1,3 +1,4 @@
+/* Nora's character javascript page*/
 function crystal() {
     let value = Number(depth.value); // use let instead of const
     let img = document.getElementById("crystal-img");
@@ -18,7 +19,7 @@ function crystal() {
         img.style.visibility = "visible";
         output.innerHTML = "Mae found you a Bubble Crystal! No question where it gets its name from B)";
     } else if (value <= 150) {
-        img.src = "pics/chunk_crystal.jpg";
+        img.src = "pics/chalk.jpg";
         img.alt = "Chalk Crystal";
         img.style.visibility = "visible";
         output.innerHTML = "Mae found you a Chalk Crystal! Named after its white color and resemblance to chalk B)";
