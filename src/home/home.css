@@ -83,6 +83,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin: auto;
 }
 
 /*Linnea*/
@@ -116,7 +117,8 @@ nav ul li a:hover {
     background-color: #ffffff;
     border: 1px solid #ccc;
     border-radius: 6px;
-    width: 250px;
+    width: 100%;
+    max-width: 250px;
     padding: 15px;
     margin: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -135,13 +137,13 @@ nav ul li a:hover {
 
 .town-card h2 {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: calc(12px + 0.5vw);
     color: #3b6ea5;
 }
 
 .town-card p {
     margin-top: 5px;
-    font-size: 10px;
+    font-size: calc(8px + 0.5vw);
 }
 
 #map-photo img {
@@ -199,6 +201,7 @@ footer {
 
 /* Nora end */
 
+/*Wilson's part for responsive design*/
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -215,6 +218,17 @@ footer {
 
     .dropdown-content a {
         color: darkslateblue;
+    }
+
+    #sub-gallery-1,
+    #sub-gallery-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .town-card {
+        width: 90%;
+        margin: auto;
     }
 }
 
