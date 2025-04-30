@@ -212,5 +212,7 @@ footer {
         max-width: 100%;
         height: auto;
     }
-
+    #looks {
+        flex-direction: column;
+    }
 }
