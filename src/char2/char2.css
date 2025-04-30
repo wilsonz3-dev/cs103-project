@@ -180,14 +180,14 @@ footer {
     text-align: center;
     color: white;
     background-color: #007074;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     border: 1px solid white;
     font-family: Copperplate, fantasy;
 }
 
 #mae-image {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -208,4 +208,9 @@ footer {
     .dropdown-content a {
         color: darkslateblue;
     }
+    #mae-image {
+        max-width: 100%;
+        height: auto;
+    }
+
 }
